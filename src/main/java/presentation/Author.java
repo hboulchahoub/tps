@@ -6,6 +6,7 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 @Inherited
 public @interface Author {
-    String name() default "said";
-    int exp() default 5;
+    String name() default "omar";
+    int exp() default 7;
+
 }
